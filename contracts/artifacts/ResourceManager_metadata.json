@@ -1,0 +1,156 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "energy",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "gold",
+						"type": "uint256"
+					}
+				],
+				"name": "addResources",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "percent",
+						"type": "uint256"
+					}
+				],
+				"name": "distributePlayerEnergy",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "player",
+						"type": "address"
+					}
+				],
+				"name": "getPlayerResources",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "energy",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "gold",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "level",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "players",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "energy",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "gold",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "level",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "baseCost",
+						"type": "uint256"
+					}
+				],
+				"name": "upgrade",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ResourceManager.sol": "ResourceManager"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ResourceManager.sol": {
+			"keccak256": "0xd0440386dc13a146b58d8d99d35e7efab485b962426844097a7f61d0aad18cfa",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9389d0897866f467fce026d30e10a45049ec5ec1af847b060bf5f79d95a8f81e",
+				"dweb:/ipfs/Qmd3hToCSnHcQvBZ1Jv2dNJeQXJr1b7ND4agPwnJv6JTT8"
+			]
+		},
+		"contracts/ResourceUtils.sol": {
+			"keccak256": "0x143284edfa9be7d10edecd312e7779baa6aa77edcf408ae1d8bc62f2a0ea4cd8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b0a8598358e04307a647e4560d736d2bf6e315b4abfa59c6c59cafa19018bbc8",
+				"dweb:/ipfs/QmUbsg9LYQB4F7ckVVBPY7vRqQyGoze7w2dqiKJiW4SsHx"
+			]
+		}
+	},
+	"version": 1
+}

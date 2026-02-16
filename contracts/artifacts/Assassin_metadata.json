@@ -1,0 +1,122 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "isRegistered",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "registerWarrior",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "warriors",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "registered",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "level",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "power",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Assassin.sol": "Assassin"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Assassin.sol": {
+			"keccak256": "0xa938322ef2cc37532692f348ba67ebef347e63ad2b2f712cf541457d7ef0bcda",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ddd198bbc55237d93191e7ea477b534bc84573a4b145396a4f6d846723bd41af",
+				"dweb:/ipfs/QmUC8YWZ8iEPzzbqGAPpWT8zz8SmZWQ2fVBeLRypSk97fL"
+			]
+		},
+		"contracts/WarriorGuild.sol": {
+			"keccak256": "0x5299238d7c4291a3c727774811f44379782dc69d70f6ffdecb421c983e39f843",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://51a25baf3f43e0b48cedb4baca04083473a99b8ffdfe384171ffa6421414d531",
+				"dweb:/ipfs/QmZtDpBEZ6zdadffuURYnnFPJz7sJdnwU7mUak1sfK6jmM"
+			]
+		}
+	},
+	"version": 1
+}
